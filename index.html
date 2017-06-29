@@ -4,16 +4,16 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>APPards</title>
-        <meta name="description" content="APPards">
+        <meta name="description" content="Appards are a website that introduce the best application designs.">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel='shortcut icon' href='favicon.ico' />
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/flexiblegs.min.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/styles.css">
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -28,9 +28,122 @@
 
     </head>
 <body>
+  <div class="wrapper">
     <section class="bg">
-        <a href="/" title="Appards"><img src="img/appards-logo.png" alt="Appards"></a>
-        <h1>Coming Soon</h1>
+      <header class="header">
+        <nav class="navbar navbar-toggleable-md navbar-light">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="/"><img src="assets/images/appards-logo.png" height="30" alt=""></a>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tooltip" data-placement="bottom" title="Daily limit is full! You can send mail by clicking." href="mailto:info@appards.com">SUBMIT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">MENU</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid">
+        <div class="row appoftheday align-items-center text-lg-left">
+          <div class="col-lg-6">
+            <p class="date">Tuesday 04, July</p>
+            <h1>Marline - Weather, Tides & Moon</h1>
+            <h2><span>By</span> Javi Perez</h2>
+            <a href="https://itunes.apple.com/es/app/marline-weather-tides-moon/id1031781908?l=en&mt=8" target="_blank">More</a>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="assets/images/phone/20170704.jpg" alt="">
+          </div>
+        </div>
+      </div>
     </section>
+    <section class="contents">
+      <div class="row">
+        <!-- AOTD -->
+        <!-- <div class="col-lg-3 col-md-6">
+          <a href="https://itunes.apple.com/es/app/marline-weather-tides-moon/id1031781908?l=en&mt=8" target="_blank">
+            <img src="assets/images/phone/20170704.jpg" alt="">
+            <div class="apptitle row align-items-center">
+              <div class="col">
+                <p class="date">July 04, 2017</p>
+                <h1>MARLINE</h1>
+                <h2>By Javi Perez</h2>
+              </div>
+            </div>
+          </a>
+        </div> -->
+        <!-- AOTD -->
+        <!-- AOTD -->
+        <div class="col-lg-3 col-md-6">
+          <a href="https://itunes.apple.com/app/threes!-free/id976851174?mt=8" target="_blank">
+            <img src="assets/images/phone/20170703.jpg" alt="">
+            <div class="apptitle row align-items-center">
+              <div class="col">
+                <p class="date">July 03, 2017</p>
+                <h1>THREES</h1>
+                <h2>By Sirvo LLC</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- AOTD -->
+        <!-- AOTD -->
+        <div class="col-lg-3 col-md-6">
+          <a href="https://itunes.apple.com/us/app/blackbox-think-outside-box/id962969578?mt=8" target="_blank">
+            <img src="assets/images/phone/20170702.jpg" alt="">
+            <div class="apptitle row align-items-center">
+              <div class="col">
+                <p class="date">July 02, 2017</p>
+                <h1>BLACKBOX</h1>
+                <h2>By Ryan McLeod</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- AOTD -->
+        <!-- AOTD -->
+        <div class="col-lg-3 col-md-6">
+          <a href="https://itunes.apple.com/us/app/popcorn-discover-your-new-favourite-movie/id1204478983?mt=8" target="_blank">
+            <img src="assets/images/phone/20170701.jpg" alt="">
+            <div class="apptitle row align-items-center">
+              <div class="col">
+                <p class="date">July 01, 2017</p>
+                <h1>POPCORN</h1>
+                <h2>By Grabble Apps</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- AOTD -->
+        <!-- Sponsor -->
+        <div class="col-lg-3 col-md-6">
+          <a href="mailto:info@appards.com">
+            <img src="assets/images/sod.jpg" alt="">
+            <div class="apptitle row align-items-center">
+              <div class="col">
+                <h1>THE SPONSOR OF THE DAY</h1>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Sponsor -->
+      </div>
+      <div class="row">
+      <div class="col">
+        <div class="tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>
+      </div>
+      </div>
+    </section>
+  </div>  
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="assets/javascripts/tether.min.js"></script>
+    <script src="assets/javascripts/bootstrap.min.js"></script>
+    <script src="assets/javascripts/main.js"></script>
 </body>
 </html>
